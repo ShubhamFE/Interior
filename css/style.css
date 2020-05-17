@@ -1,0 +1,276 @@
+/* FONT */
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+* .bold-700 {
+    font-weight: 700;
+}
+
+* .light-300 {
+    font-weight: 300;
+}
+
+* .light-100 {
+    font-weight: 100;
+}
+
+* .light-500 {
+    font-weight: 500;
+}
+
+html {
+    scroll-behavior: smooth;
+    transition: 2s ease;
+}
+
+* {
+    transition: 1s ease-in-out;
+}
+
+/* Nav */
+nav {
+    border-bottom: 1px solid #dfe6e9;
+}
+
+/* Backgrounds */
+.bg-main {
+    background-image: url(../images/1.jpg);
+   background-repeat: no-repeat;
+    background-size: initial;
+}
+
+.bg1-main {
+    background-image: url(../images/2.jpg);
+    background-repeat: no-repeat;
+    background-size: initial;
+}
+
+.bg3-main {
+    background-image: url(../images/3.jpg);
+   background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Main */
+
+.main-text {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.main-section .main button {
+    border-radius: 0;
+    font-size: 0.8rem;
+    color: white;
+    background-color: black;
+    padding: 1rem 3rem 1rem 3rem;
+    transition: 1s ease ;
+}
+
+.main button:hover {
+    color: black;
+    transition: 1s ease ;
+}
+
+/* Service */
+
+.service-package p {
+    font-size: 0.8rem;
+}
+
+/* Main 1 */
+
+.main1-section button {
+    border-radius: 0;
+    font-size: 0.8rem;
+    color: white;
+    padding: 1rem 3rem 1rem 3rem;
+}
+
+.main1-text {
+    margin-top: 5rem;
+    margin-left: 4rem;
+}
+
+.m-text {
+    background: #F5F5F7;
+}
+
+.we-love {
+    width: 80%;
+}
+
+
+/* Main 2 */
+
+.main2 {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.main2 button {
+    border-radius: 0;
+    font-size: 0.8rem;
+    color: white;
+    background-color: black;
+    padding: 1rem 3rem 1rem 3rem;
+}
+
+.main2 .block-side {
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+}
+
+.blocks {
+    border-bottom: 1px solid black;
+}
+
+.read {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+/* Heading2 */
+
+.package-text h4 {
+    text-align: left;
+}
+
+.package-text p {
+    line-height: 1rem;
+    text-align: left;
+    color: #9C9EA8; 
+    font-size: 1rem; 
+    letter-spacing: 0.05rem; 
+    line-height: 1.5rem;
+}
+
+/* Design Style */
+.design-style .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: rgba(15, 15, 15, 0.89);
+    background-color: white;
+}
+
+.design-style a {
+    color: #9C9EA8;
+}
+
+.design-style .quote .carousel-item {
+    padding: 8rem;
+   
+}
+
+.design-style .quote .carousel-item h1 {
+    font-size: 1.1rem;   
+    text-align: center;
+}
+
+.tab-pane > img {
+    width: 50%;
+}
+
+/* Footer */
+.footer .footer-row {
+    padding: 4rem;
+    font-size: 0.8rem;
+    color: white;
+    background-color: #1C1C1F;
+}
+
+.footer {
+    background-color: #1C1C1F;
+}
+
+.footer .footer-row .list-heading {
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.footer .links {
+    cursor: pointer;
+}
+
+.footer .list-heading {
+    cursor: default;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+* button:focus {
+    outline: none;
+}
+
+/* MEDIA QUERIES */
+
+@media(max-width: 576px) {
+
+    .bg-main {
+        background-size: cover;
+        height: 600px;
+    }
+
+    .bg1-main {
+        height: 600px;
+        background-size: cover;
+    }
+
+    .bg3-main {
+        height: 600px;
+        background-size: cover;
+        margin-bottom: 1rem;
+    }
+
+
+    .service-package .packagee-text h4 p{
+        text-align: center;
+    }
+
+    .we-love {
+        width: 80%;
+        margin: auto;
+    }
+
+    .main2>.row:nth-child(2){
+        padding: 1rem;
+    }
+
+    .heading2 .package-text p {
+        line-height: 1rem;
+        text-align: left;
+        color: #9C9EA8; 
+        font-size: 0.8rem; 
+        letter-spacing: 0.05rem; 
+        line-height: 1.5rem;
+    }
+
+    .design-style .quote .carousel-item {
+        padding: 3rem;
+    }
+
+    .design-style {
+        margin-top: 7rem;
+    }
+
+    .footer * {
+        padding: 0;
+        text-align: center;
+    }
+
+    .footer .list-heading {
+        margin-top: 1rem;
+    }
+
+    .navbar-nav {
+        margin-top: 15px;
+    }
+
+    .tab-pane > img {
+        width: 80%;
+    }
+}
+
+/* .main-section {
+    height: 200px;
+} */
